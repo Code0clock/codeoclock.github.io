@@ -1,0 +1,143 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+.mainContent {
+  margin: auto;
+}
+body {
+  background: #141e27;
+}
+.header {
+  margin-top: 5rem;
+  text-align: center;
+}
+h1 {
+  color: #faedc6;
+}
+.profilImage {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+a {
+  display: block;
+}
+.social-link {
+  font-size: 4rem;
+}
+
+.githubLink {
+  margin: auto;
+  margin-top: 4%;
+  text-align: center;
+  border-radius: 10px 15px 15px 10px;
+  border-style: solid;
+  width: 20%;
+}
+
+.githubLink:hover {
+  box-shadow: 0 0 3px #f7f7f7, 0 0 7px #ffc0cb, 0 0 15px #ffc0cb,
+    0 0 22px #ffdab9;
+  border-color: #141e27;
+}
+
+.fa-github {
+  color: white;
+}
+
+.githubLink:hover .fa-github {
+  color: #ed3572;
+}
+
+/* Instagram */
+
+.instagramLink {
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+  border-radius: 10px 15px 15px 10px;
+  border-style: solid;
+  width: 20%;
+}
+
+.instagramLink:hover {
+  box-shadow: 0 0 3px #f7f7f7, 0 0 7px #ffc0cb, 0 0 15px #ffc0cb,
+    0 0 22px #ffdab9;
+  border-color: #141e27;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.instagramLink:hover .fa-instagram {
+  color: #ed3572;
+}
+
+/* Twitter */
+
+.twitterLink {
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+  border-radius: 10px 15px 15px 10px;
+  border-style: solid;
+  width: 20%;
+}
+
+.twitterLink:hover {
+  box-shadow: 0 0 3px #f7f7f7, 0 0 7px #ffc0cb, 0 0 15px #ffc0cb,
+    0 0 22px #ffdab9;
+  border-color: #141e27;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.twitterLink:hover .fa-twitter {
+  color: #ed3572;
+}
+
+/* Youtube */
+
+.youtubeLink {
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+  border-radius: 10px 15px 15px 10px;
+  border-style: solid;
+  width: 20%;
+  margin-bottom: 4%;
+}
+
+.youtubeLink:hover {
+  box-shadow: 0 0 3px #f7f7f7, 0 0 7px #ffc0cb, 0 0 15px #ffc0cb,
+    0 0 22px #ffdab9;
+  border-color: #141e27;
+}
+
+.fa-youtube {
+  color: white;
+}
+
+.youtubeLink:hover .fa-youtube {
+  color: #ed3572;
+}
+
+.designer {
+  font-family: "Courier New", monospace;
+  letter-spacing: 0rem;
+  font-size: 50%;
+  font-weight: 900;
+  text-align: center;
+}
+
+.designer-link {
+  color: white;
+  text-decoration: none;
+}
