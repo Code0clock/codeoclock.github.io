@@ -3,22 +3,24 @@ body {
   margin: 0;
   height: 100%;
 }
-.mainContent {
-  margin: auto;
-}
 body {
   background: #141e27;
 }
+.mainContent {
+  padding-top: 2rem;
+  margin: 0;
+  height: 100%;
+}
 .header {
-  margin-top: 5rem;
   text-align: center;
 }
 h1 {
   color: #faedc6;
+  text-align: center;
 }
 .profilImage {
-  width: 25%;
-  height: 25%;
+  width: 15%;
+  height: 15%;
   border-radius: 50%;
   display: block;
   margin: auto;
@@ -32,7 +34,7 @@ a {
 
 .githubLink {
   margin: auto;
-  margin-top: 4%;
+  margin-top: 1rem;
   text-align: center;
   border-radius: 10px 15px 15px 10px;
   border-style: solid;
@@ -57,7 +59,7 @@ a {
 
 .instagramLink {
   margin: auto;
-  margin-top: 3%;
+  margin-top: 1rem;
   text-align: center;
   border-radius: 10px 15px 15px 10px;
   border-style: solid;
@@ -82,7 +84,7 @@ a {
 
 .twitterLink {
   margin: auto;
-  margin-top: 3%;
+  margin-top: 1rem;
   text-align: center;
   border-radius: 10px 15px 15px 10px;
   border-style: solid;
@@ -107,7 +109,7 @@ a {
 
 .youtubeLink {
   margin: auto;
-  margin-top: 3%;
+  margin-top: 1rem;
   text-align: center;
   border-radius: 10px 15px 15px 10px;
   border-style: solid;
@@ -135,9 +137,16 @@ a {
   font-size: 50%;
   font-weight: 900;
   text-align: center;
+  margin-top: 3%;
+  position: relative;
 }
 
 .designer-link {
   color: white;
+  text-decoration: none;
+}
+
+.designer-link:hover {
+  color: #ed3572;
   text-decoration: none;
 }
